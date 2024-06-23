@@ -3,3 +3,96 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 10px;
+
+  margin: 0 5px;
+
+  text-decoration: underline;
+  color: blue;
+  background-color: grey;
+
+  border-radius: 5px;
+
+  transition: background-color 0.3s ease;
+
+}
+
+#featured-property figcaption {
+  text-align: center;
+  font-size: small;
+
+}
+
+#featured-property {
+  text-align: center;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+
+  text-align: left;
+
+}
+
+#details {
+  display: block;
+  clear: both;
+  background-color: red;
+  padding: 20px;
+  margin-top: 20px;
+}
+}
+
+#details div {
+  float: left;
+  /* Floats each div to the left */
+  width: 25%;
+  /* Adjust width as needed */
+  padding: 0 15px;
+  /* Adds spacing between columns */
+  box-sizing: border-box;
+  /* Includes padding in the width */
+
+}
+
+
+
+#details h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#details p {
+  margin-bottom: 20px;
+}
+
+#details a {
+  text-decoration: none;
+  color: #333;
+}
+
+#details a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+#details {
+  text-align: left;
+}
